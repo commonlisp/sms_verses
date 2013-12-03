@@ -5,12 +5,13 @@ gem 'rails', '3.2.14'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
+gem 'pg'
 gem 'devise'
 gem 'bootstrap-sass'
 gem 'timezone'
 gem 'simple_form'
 gem 'validates_email_format_of', :git => 'git://github.com/alexdunae/validates_email_format_of.git'
+gem 'phony_rails'
 
 
 # Gems used only for assets and not required
@@ -30,6 +31,7 @@ gem 'jquery-rails'
 gem 'kaminari'
 gem 'ruby-sendhub'
 gem 'choices'
+gem 'geocoder'
 
 # if you require 'sinatra' you get the DSL extended to Object
 gem 'sinatra', '>= 1.3.0', :require => nil
